@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+venv/
+env/
+.venv/
+atlas_interop_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data files - do not commit restricted data
+*.nii
+*.nii.gz
+*.mgz
+*.mgh
+*.trk
+*.tck
+*.mat
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.csv
+*.tsv
+*.xlsx
+
+# Outputs
+results/
+outputs/
+logs/
+runs/
+checkpoints/
+trained_models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Temporary files
+tmp/
+temp/
+scratch/
+*.tmp
+*.bak
+*.log
+
+# Local sensitive configs
+local_config.yaml
+local_config.yml
+secrets.yaml
+credentials.json
+
+# Keep placeholder files
+!.gitkeep
