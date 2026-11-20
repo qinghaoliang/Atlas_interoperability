@@ -547,8 +547,7 @@ and `demo_output/` are in `.gitignore`.
 - Figure-styling code.
 
 Reproducing the manuscript's numbers requires authorized access to those
-datasets and the preparation steps listed in
-[docs/IMPLEMENTATION_NOTES.md](docs/IMPLEMENTATION_NOTES.md#reproduction-prerequisites).
+datasets.
 
 ## Data availability
 
