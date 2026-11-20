@@ -7,6 +7,8 @@ name = "atlas-interop"
 version = "0.1.0"
 description = "Atlas-interoperability layer for connectome learning: atlas mapping, FLECHA and MECHA"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.23",

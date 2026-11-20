@@ -554,3 +554,10 @@ datasets.
 UK Biobank, HCP-YA, HCP-D and the Yale dataset are available through their
 respective data-access procedures and data-use agreements. Subject-level data
 cannot be redistributed.
+
+## License
+
+This software is released under the MIT License. See [LICENSE](LICENSE) for the
+full text. The license covers the code in this repository only; it does not
+grant any rights to the datasets described above, which remain governed by their
+own data-use agreements.
