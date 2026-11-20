@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.egg-info/
+.pytest_cache/
+
+# Synthetic demo output and participant-level outputs
+demo_output/
+demo_runs/
+demo_runs_v2/
+**/participant_level/
 
 # Environments
 venv/

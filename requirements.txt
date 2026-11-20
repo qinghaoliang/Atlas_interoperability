@@ -1,13 +1,10 @@
+# Runtime dependencies of the atlas_interop package (also declared in pyproject.toml).
+# Lower bounds are carried over from the original repository and have not been
+# tested as minimums. The only environment actually tested is listed in README.md.
 numpy>=1.23
 scipy>=1.9
 pandas>=1.5
 scikit-learn>=1.2
-matplotlib>=3.6
-seaborn>=0.12
-pyyaml>=6.0
-tqdm>=4.64
-joblib>=1.2
-h5py>=3.7
-nibabel>=5.0
-pot>=0.9.0
 torch>=2.0
+pot>=0.9.0
+tqdm>=4.64
