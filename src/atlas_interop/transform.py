@@ -49,15 +49,6 @@ MAPPING_FORMAT_VERSION = 2
 ORIENTATION = "target_by_source"
 NORMALIZATION = "source_columns_sum_to_one"
 
-LEGACY_EXPLANATION = (
-    "This file looks like a legacy mapping (key 'mapping_matrix', no format version). "
-    "Legacy mappings were stored source-by-target with each TARGET column summing to one, "
-    "and were fit with a separate per-participant cost matrix. The manuscript specifies a "
-    "target-by-source mapping whose SOURCE columns sum to one, fit with one group-level "
-    "cost matrix. A legacy matrix cannot be transposed or renormalized into a manuscript-"
-    "equivalent mapping, so it is rejected. Refit with `atlas_interop fit-mapping`."
-)
-
 
 # ---------------------------------------------------------------------------
 # Fit
